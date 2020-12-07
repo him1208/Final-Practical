@@ -2,7 +2,7 @@ public class WordsReversal {
 
 	public static String reverseWords(String str) {
 		
-		//Declare a new StringBuilder object
+	
 		StringBuilder sb = new StringBuilder(str);
 		String revStr = sb.reverse().toString();//contains "uoy era woH"
 
@@ -13,7 +13,7 @@ public class WordsReversal {
 			reverse.append(sb.reverse()+" ");
 		}
 		
-		//to remove last space
+		
 		reverse.deleteCharAt(reverse.length()-1);
 		
 		return reverse.toString();
